@@ -75,3 +75,7 @@ li {
 .formkit-powered-by-convertkit-container {
   display: none !important;
 }
+
+p code {
+  @apply bg-[#c3cee3] py-1 px-2 text-[#263238] rounded-sm;
+}
