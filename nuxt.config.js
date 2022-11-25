@@ -4,7 +4,7 @@ const createSitemapRoutes = async () => {
 
   const articles = await $content('articles').fetch();
   for (const article of articles) {
-    routes.push(`articles/${article.slug}`);
+    routes.push(`article/${article.slug}`);
   }
 
   const tutorials = await $content('tutorials').fetch();
@@ -21,7 +21,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Weston Walker - The Full Stack Dev',
+    title: 'Weston Walker - Software and web development tutorials',
     htmlAttrs: {
       lang: 'en'
     },
@@ -77,7 +77,7 @@ export default {
     }
   },
   sitemap: {
-    hostname: 'https://thefullstackdev.net',
+    hostname: 'https://westonwalker.com',
     gzip: true,
     routes: createSitemapRoutes
   },
