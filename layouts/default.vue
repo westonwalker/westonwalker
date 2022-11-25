@@ -1,17 +1,14 @@
 <template>
   <div>
     <div class="max-w-5xl flex flex-col items-start sm:items-start sm:flex-row sm:justify-between px-4 sm:px-12 mx-auto p-4">
-      <NuxtLink class="py-2 inline-flex items-center font-semibold text-lg" to="/">
+      <NuxtLink class="inline-flex items-center font-semibold text-lg" to="/">
         <img class="h-10 w-auto mr-2" src="/logo.png" />
         <span>Weston Walker</span>
       </NuxtLink>
-      <div class="text-base font-semibold flex flex-col w-1/2 items-center">
+      <div class="text-base flex flex-col w-1/2 items-center">
         <div class="w-full flex flex-row items-center sm:justify-end">
           <NuxtLink class="md:px-4 py-2" to="/#articles">
             Articles
-          </NuxtLink>
-          <NuxtLink class="px-3 md:px-4 py-2" to="/#tutorials">
-            Tutorials
           </NuxtLink>
           <NuxtLink class="px-3 md:px-4 py-2" to="/projects">
             Projects
