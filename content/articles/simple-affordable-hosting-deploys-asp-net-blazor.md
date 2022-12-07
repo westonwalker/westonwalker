@@ -9,7 +9,7 @@ I’ve been on a week-long journey to find a deployment platform for .NET apps t
 
 Some people like the challenge of setting up complicated infrastructure and deployments. I have a low pain tolerance when it comes to hosting and deploying apps. Nothing frustrates me more and slows my momentum on a project than spending hours setting up deployments. I want to code and ship features. Fast.
 
-Well, I finally found something that fits the bill. [Railway](https://railway.app/). So here is guide that will save you a lot of time setting it up!
+Well, I finally found something that fits the bill. [Railway](https://railway.app/). So here is a guide that will save you a lot of time setting it up!
 
 Keep in mind, this is for my side projects. There are other popular methods that should be used for larger enterprise apps.
 
