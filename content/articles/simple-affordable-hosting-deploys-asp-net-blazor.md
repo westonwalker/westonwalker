@@ -1,5 +1,5 @@
 ---
-title: Journey to find affordable and simple service to host and deploy my .NET Blazor app
+title: Journey to find an affordable and simple service to host and deploy my .NET Blazor app
 description: I spent a week finding the perfect service to host and deploy my .NET apps. 
 publishDate: 2022-12-07
 published: true
